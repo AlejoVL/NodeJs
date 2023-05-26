@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <h1>Enviar Mensaje a Whatsapp</h1>
+        <form action="/formulario" method="post">
+            <label for="numero">
+                Numero telefonico(Destino):
+            </label>
+            <input type="text" id="numero" name="numero">
+            <label for="mensaje">
+                Mensaje:
+            </label>
+            <input type="textarea" id="mensaje" name="mensaje">
+            <button type="submit" value="enviar">Enviar</button>
+
+        </form>
+    </div>
+</body>
+</html>
